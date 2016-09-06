@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     Button startButton;
 
     public void start(View view){
-
+        startButton.setVisibility(View.INVISIBLE);
     }
 
     @Override
